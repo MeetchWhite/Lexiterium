@@ -1,0 +1,128 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LexiteriumHB",
+				"abbreviation": "LHB",
+				"full": "LexiteriumHB",
+				"url": "",
+				"authors": [
+					"Meetch"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1616551277,
+		"dateLastModified": 1616551277
+	},
+	"monster": [
+		{
+			"name": "Bob of Clan Doodle",
+			"source": "LexiteriumHB",
+			"size": "S",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "One Quarter of your Max HP Value, rounded down"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 11,
+			"dex": 11,
+			"con": 12,
+			"int": 5,
+			"wis": 8,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Bob make two attacks with his Weird, Skinny Hands action"
+					]
+				},
+				{
+					"name": "Weird, Skinny Hands",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h} ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Abyssal Chicken",
+					"entries": [
+						"Bob summons an Abyssal Chicken (see stat block) and overhand tosses it up to the chicken's fly speed. It stops only when it collides with something, or moves up to its fly speed. If it collides with a creature, the Abyssal Chicken makes its Multiattack action. As an action on subsequent turns, Bob can Concentrate to sustain the summon of the chicken, during which creatures have advantage on attack roles against him. "
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/dretch.mp3?v=1.125.1"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://imgur.com/9zawjLd",
+			"fluff": {
+				"entries": [
+					"A strange demon found trapped in Riche's compound in Inford. Offered Freyr his assistance after being freed."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.kym-cdn.com/entries/icons/original/000/020/981/CvllgCSUIAAvycY.jpg"
+						}
+					}
+				]
+			},
+			"shortName": "Doodle, Bob",
+			"isNamedCreature": true
+		}
+	]
+}
